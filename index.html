@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ma forme</title>
+<meta name="description" content="Programme de 6 mois : haltères, tapis, vélo et journal des repas.">
+<meta name="theme-color" content="#1f6f5c">
+<meta name="robots" content="noindex">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1 id="titre">Ma forme</h1><button id="reglages" class="engrenage" data-act="tab" data-t="reglages" aria-label="Réglages" hidden>⚙</button></header>
+<main id="main"></main>
+<div id="feuille"></div>
+<div id="toast" role="status"></div>
+<div id="lecteur"></div>
+<nav hidden>
+  <button data-act="tab" data-t="jour"><span class="ic">◉</span>Jour</button>
+  <button data-act="tab" data-t="semaine"><span class="ic">▦</span>Semaine</button>
+  <button data-act="tab" data-t="exercices"><span class="ic">✦</span>Exercices</button>
+  <button data-act="tab" data-t="repas"><span class="ic">◐</span>Repas</button>
+  <button data-act="tab" data-t="suivi"><span class="ic">↗</span>Suivi</button>
+</nav>
+<script type="module" src="app.js"></script>
+</body>
+</html>
